@@ -1,0 +1,51 @@
+body {
+  background:url(imgs/bg.png);
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
+  color:#616161;
+}
+a{
+  color:#000;
+  text-decoration: none;
+}
+nav{
+  box-shadow:0px 1px 5px #666;
+}
+
+nav ul, nav ul li {
+  display: inline-block;
+}
+nav ul li{
+  padding:5px 10px;
+}
+main{
+  text-align: center;
+}
+#social-icons{
+  float: right;
+}
+#blog-posts li{
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+}
+.hire-me{
+  font-family: 'Lobster', cursive;
+}
+.home{
+  box-shadow: 0px 5px #00A1CB;
+}
+.about-me{
+  box-shadow: 0px 5px #61AE24;
+}
+.blog{
+  box-shadow: 0px 5px #D70060;
+}
+.latest-work{
+  box-shadow: 0px 5px #F18D05;
+}
+.me{
+  margin:4em;
+  border:10px #000 solid;
+  border-radius: 150px;
+}
