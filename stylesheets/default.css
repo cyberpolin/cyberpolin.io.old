@@ -1,5 +1,5 @@
 body {
-  background:url(imgs/bg.png);
+  background:url(../imgs/bg.png);
   margin:0;
   font-family: 'Open Sans', sans-serif;
   color:#616161;
@@ -28,6 +28,9 @@ main{
   display: inline-block;
   width: 30%;
   margin: 1%;
+}
+#blog-posts li img{
+  width: 100%;
 }
 .hire-me{
   font-family: 'Lobster', cursive;
