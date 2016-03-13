@@ -13,6 +13,10 @@ a{
 }
 nav{
   box-shadow:0px 1px 5px #666;
+  position: fixed;
+  width: 100%;
+  background:#FFF;
+
 }
 
 nav ul, nav ul li {
@@ -26,17 +30,34 @@ main{
 }
 #social-icons{
   float: right;
+  margin-right:10px;
 }
 #blog-posts li{
   display: inline-block;
-  width: 30%;
-  margin: 1%;
+  margin: 3%;
+
 }
-#blog-posts li img{
-  width: 100%;
+#blog-posts{
+  text-align: center;
+  margin:0;
+}
+.blog-title{
+  position: relative;
+  background:#000;
+  width:300px;
+  top:-310px;
+  height:42px;
+  overflow:hidden;
+}
+.blog-title h2{
+  color:#FFF;
+  margin:.1em 0;
 }
 .hire-me{
   font-family: 'Lobster', cursive;
+}
+.hire-me:hover{
+  text-decoration: underline;
 }
 .home{
   box-shadow: 0px 5px #00A1CB;
@@ -51,7 +72,7 @@ main{
   box-shadow: 0px 5px #F18D05;
 }
 .me{
-  margin:4em;
+  margin:8em;
   border:10px #000 solid;
   border-radius: 150px;
 }
