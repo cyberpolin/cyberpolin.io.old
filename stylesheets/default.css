@@ -11,11 +11,15 @@ a{
   color:#000;
   text-decoration: none;
 }
+a:hover{
+  text-decoration: underline;
+}
 nav{
   box-shadow:0px 1px 5px #666;
   position: fixed;
   width: 100%;
   background:#FFF;
+  top:0;
 
 }
 
