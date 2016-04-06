@@ -4,11 +4,29 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans|Lobster' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript">
+    // jQuery functions
+    // Show mini-menu
+    $(document).ready(function(){
+      $("#mini-menu").click(function(){
+        $("#menu").slideToggle();
+      });
+    });
+  </script>
   <title>Cyberpolin's website</title>
 </head>
 <body>
+
   <nav>
-    <ul>
+    <span id="mini-menu">
+        <span>
+          <a href="#">
+          <i class="fa fa-bars fa-2x"></i>
+          </a>
+        </span>
+    </span>
+    <ul id="menu">
       <li class="home"><a href="http://cyberpolin.github.io/">Home</a></li>
       <li class="about-me"><a href="about.html">About me</a></li>
       <li class="blog"><a href="http://cyberpolin.github.io/blog/index.html">Blog</a></li>
@@ -22,6 +40,7 @@
         <li><a href="https://twitter.com/cyberpolin"><i class="fa fa-twitter fa-lg"></i></a></li>
         <li><a href="https://www.facebook.com/carlos.vasconcelos"><i class="fa fa-facebook fa-lg"></i></a></li>
       </ul>
+
     </div>
   </nav>
 
