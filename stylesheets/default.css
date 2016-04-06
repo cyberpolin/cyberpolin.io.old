@@ -33,6 +33,9 @@ nav ul li{
 main{
   text-align: center;
 }
+#mini-menu{
+  display: none;
+}
 #social-icons{
   float: right;
   margin-right:10px;
@@ -81,11 +84,14 @@ main{
   border:10px #000 solid;
   border-radius: 150px;
 }
+<<<<<<< HEAD
 pre.compare{
   width: 49%;
   display: inline-block;
 }
 
+=======
+>>>>>>> responsive-design
  /*==========  Non-Mobile First Method  ==========*/
 
     /* Large Devices, Wide Screens */
@@ -106,9 +112,27 @@ pre.compare{
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
 
-    }
+      #mini-menu{
+        display: inline-block;
+      }
+      #mini-menu i{
+        padding:16px;
+      }
+      #menu{
+        position: fixed;
+        left:0;
+        top:64px;
+        margin:0;
+        display: none;
+        background: white;
+        width:100%;
+        padding:0 !important;
+      }
+      #menu li{
+        display: block;
+        text-align: center;
+        padding: 1em 0;
 
-    /* Custom, iPhone Retina */
-    @media only screen and (max-width : 320px) {
-
+      }
     }
+}
