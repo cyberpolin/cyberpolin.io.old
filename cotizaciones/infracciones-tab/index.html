@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Sistema de Infracciones para el Edo de Tabasco</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+					### Sistema Integral de Infracciones
+					#### Formas Inteligentes
+				</section>
+				<section data-markdown>
+					### Problemática...
+
+					- Actualmente no se cuenta con un sistema integral, que  vincule placas, tarjetas de ciruclacion y automovilistas.
+					- Las infracciones siguen levantandose "a mano"
+					- Tardan en mandar las infracciones a las oficinas, por lo cual el pago es lento.
+					- Los agentes no saben si algun vehiculo, o automovilista esta infraccionado o es robado
+				</section>
+				<section data-markdown>
+					### Solución
+
+					- Integrar:
+						- Emplacamiento
+						- Infracciones
+						- Licencias
+					- Automatizacion para levantar las infracciones a traves de una aplicacion en smartphone
+					- Infracciones se podran pagar con tarjeta bancaria en el sitio, o en las oficinas que la secretaria determine.
+					- Los agentes podran saber:
+						- Que automovilistas conducen generalmente el vehiculo.
+						- Si los automovilistas o el vehiculo tiene una infraccion.
+						- Saber si el automovilista tiene una infraccion.
+						- Si el vehiculo tiene algun reporte de robo etc...
+
+				</section>
+				<section data-markdown>
+					### Solución
+
+					- Podra obtener dicha informacion por medio de:
+						- Tarjeta de circulacion
+						- Automovilista
+						- Placas
+						- Serie del Motor
+
+				</section>
+				<section data-markdown>
+					### Solución
+
+					- El proceso de emplacamiento se automatizara lo que agilizara los tramites, evitara copias y reducira considerablemente tiempos.
+					- Gran parte del proceso del proceso de verificacion es suceptible a "mordidas", con la nueva apliacion el oficial debera tomar fotos de todos los puntos de seguridad, ademas los datos seran registrados directamente en las cajas con lo que el usuario podra pasar directamente a pagar y recoger sus placas.
+					- En este proceso se debera ligar una o mas licencias de automovilistas al automovil, lo que nos ayudara en gran medida a tener un control sobre las infracciones.
+
+
+				</section>
+				<section data-markdown>
+					### Solución
+
+					- Haciendo uso de tecnologias de punta como NFC, los agentes podran obtener toda la informacion del auto en segundos.
+					- Habilitaremos alertas y anuncios en tiempo real, de este modo el oficial podra enterarse si hay algun reporte de robo sobre alguna unidad en especial.
+				</section>
+				<section>
+					<h3>Demo</h3>
+
+					<iframe width="660" height="415" src="https://www.youtube.com/embed/4qdlhGSU12M" frameborder="0" allowfullscreen></iframe>
+				</section>
+				<section data-markdown style='font-size:80%'>
+					### Cómo trabajamos?
+
+					- Extreme Programing
+						- Mejor conocido como XP, Extreme Programing (Programación extrema) se centra en las necesidades del usuario y pretende llegar a un MVP (Producto Mínimo Viable).
+					- Scrum
+						- Esta metodología facilita las entregas constantes de igual manera esta centrada en el usuario final y es muy flexible.
+
+					1. Reunión con el usuario
+					2. Desarrollo de Maqueta/Prototipo
+					3. Planeación de Sprints
+					4. Desarrollo y entregas
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
